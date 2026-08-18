@@ -13,6 +13,7 @@ services:
       - "25565:25565"
     volumes:
       - mc-data:/data
+      - ./log4shelltools:/log4shelltools
 
 volumes:
   mc-data:
