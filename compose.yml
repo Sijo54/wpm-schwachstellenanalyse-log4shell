@@ -2,10 +2,10 @@ services:
   mc:
     image: docker.io/itzg/minecraft-server:java8
     container_name: "mc"
-    entrypoint: ["java", "-Dcom.sun.jndi.ldap.object.trustURLCodebase=true", "-Xmx2G", "-jar", "/data/minecraft_server.1.12.2.jar", "nogui"]
+    entrypoint: ["java", "-Dcom.sun.jndi.ldap.object.trustURLCodebase=true", "-Xmx2G", "-jar", "/data/minecraft_server.1.12.jar", "nogui"]
     environment:
       EULA: "true"
-      VERSION: "1.12.2"
+      VERSION: "1.12"
       TYPE: "VANILLA"
       JVM_XX_OPTS: "-Dcom.sun.jndi.ldap.object.trustURLCodebase=true"
       MEMORY: "2G"
