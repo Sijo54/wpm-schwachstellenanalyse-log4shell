@@ -1,1 +1,1 @@
-podman exec log4shell_mc_1 bash -c "cd /log4shelltools/scripts && java -cp ../log4shelltools.jar xyz.terriblefriends.log4shelltools.HTTPServer 8000"
+podman exec mc bash -c "cd /log4shelltools/scripts && java -cp ../log4shelltools.jar xyz.terriblefriends.log4shelltools.HTTPServer 8000"
